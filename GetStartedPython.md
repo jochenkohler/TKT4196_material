@@ -8,7 +8,7 @@ Jochen Köhler (jochen.kohler@ntnu.no)
 
 ### Install Python 3.7
 
-First, make sure that you have python 3.7 installed. To verify that, open a terminal window. You may do this:
+First, make sure that you have python version 3.7 or higher installed. You can verify your version by opening the terminal on your computer:
 
 + MacOS: open spotlight with the shortcut Cmd + spacebar, and type-in: *terminal*. Then, hit enter to open the terminal.
 + Windows: One of the following two options: 
@@ -19,20 +19,28 @@ Once you have a terminal window opened, type the following command (note that th
 ```
 $ python -V
 ```
-If you need to install Python 3.7 in your computer, here are some guides:
+
+In my case the output looks like this
+```
+Python 3.8.10
+```
+
+If you need to install Python on your computer, here are some guides:
 + [NTNU guide](https://innsida.ntnu.no/wiki/-/wiki/English/Installing+Python#section-Installing+Python-Install+the+latest+version+of+Python) (for Windows, MacOS, and LINUX)
 + [For MacOS](https://opensource.com/article/19/5/python-3-default-mac) (in case you find it better/easier than the NTNU guide)
 
 ### Install Anaconda
-Now install Anaconda.  This depends on your operating system:
+Now install Anaconda.  The procedure depends on your operating system:
 
 #### MacOS
 
-Make sure you are working on a zsh terminal. Type the following command:
+Make sure you are working on a zsh terminal, i.e. if is says "-zsh" in the header of your terminal window, you are ok. 
+
+If it says "-bash" instead, type the following command:
 ```
 $ chsh -s /bin/zsh
 ```
-And restart your terminal. It should say -- ~ -- -zsh on top. 
+Then restart your terminal. It should now say -- ~ -- -zsh on top. 
 
 Now install Anaconda. Try the instructions in this [link](https://towardsdatascience.com/how-to-successfully-install-anaconda-on-a-mac-and-actually-get-it-to-work-53ce18025f97) first. If you have trouble doing it this way, you may look at this other [link](https://docs.anaconda.com/anaconda/install/mac-os/#macos-graphical-install). 
 After you have installed it, run this command: 
@@ -70,7 +78,7 @@ $ conda update -y spyder
 
 Create a conda environment called tktpy: 
 ```
-$ conda create --name tktpy python=3.7
+$ conda create --name tktpy
 ```
 
 Once the process is finished, check that it has been successfully created:
@@ -82,10 +90,19 @@ It should show at least an environment called base (with a * next to it) and ano
 ```
 $ conda activate tktpy
 ```
+Now you are in the course specific environment and we can install excactely the same softwareversions and dependencies.
 
+Let's agree that we work with python 3.9.0, so install via conda:
+```
+$ conda install python=3.9.0
+```
+And we install spyder:
+```
+$ conda install -y spyder
+```
 Next, you need to install the course requirements. These are the python packages that we will use during the course. They are stored in a file called 'tktreq.txt'. To download the file, type:
 ```
-$ curl -OL https://raw.githubusercontent.com/Jorgemendozaesp/TKT4196-CourseMaterial/master/tktreq.txt
+$ curl -OL https://raw.githubusercontent.com/jochenkohler/TKT4196-material/master/tktreq.txt
 ```
 
 To install them, type the following command:
