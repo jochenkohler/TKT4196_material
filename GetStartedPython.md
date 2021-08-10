@@ -55,7 +55,7 @@ Use this [link](https://docs.anaconda.com/anaconda/install/windows/).
 
 ### Conda Environments
 
-It is a good idea that we work on a course specific conda environment. A conda environment is a directory that contains a specific collection of conda packages that we will us in the course installed. So we can be sure to have the required packages and dependencies when you are in the environment. And the course specific instalation will not "disturb" when you are outside the environment. 
+It is a good idea that we work on a course specific conda environment. A conda environment is a directory that contains a specific collection of conda packages that we will us in the course installed. So we can be sure to have the required packages and dependencies when we are in the environment. And the course specific installation will not "disturb" when you are outside the environment. 
 
 Create a conda environment called tktpy: 
 ```
