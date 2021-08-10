@@ -7,5 +7,5 @@ title: INDEX
 
 - [About the course](about)
 - [Teaching team](team)
-- [Autumn 2020 semester](fall2020)
+- [Autumn 2021 semester](fall2021)
 - [Getting started with Python](GetStartedPython)
