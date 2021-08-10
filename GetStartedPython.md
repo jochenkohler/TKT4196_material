@@ -6,9 +6,9 @@ If you find mistakes/typos or links that do no longer function, please contact:
 
 Jochen Köhler (jochen.kohler@ntnu.no)
 
-### Install Python 3.7
+### Install Python ?
 
-First, make sure that you have python version 3.7 or higher installed. You can verify your version by opening the terminal on your computer:
+First, make sure that you have python installed at all. You can verify your version by opening the terminal on your computer:
 
 + MacOS: open spotlight with the shortcut Cmd + spacebar, and type-in: *terminal*. Then, hit enter to open the terminal.
 + Windows: One of the following two options: 
@@ -51,30 +51,11 @@ $ conda init zsh
 #### Windows: 
 Use this [link](https://docs.anaconda.com/anaconda/install/windows/).
 
-### Verify Spyder version
 
-To check installed Spyder version:
-```
-$ conda list Spyder$
-```
-If Spyder is correctly installed, you should see the following output:
-```
-# packages in environment at /Users/usrname/anaconda3/envs/tktpy:
-#
-# Name                    Version                   Build  Channel
-spyder                    4.1.3            py37hc8dfbb8_0    conda-forge
-```
 
-If Spyder is not installed:
-```
-$ conda install -y spyder
-```
-To update Spyder to the latest version (20.08.20 is 4.1.3):
-```
-$ conda update -y spyder
-```
+### Conda Environments
 
-### Python packages
+It is a good idea that we work on a course specific conda environment. A conda environment is a directory that contains a specific collection of conda packages that we will us in the course installed. So we can be sure to have the required packages and dependencies when you are in the environment. And the course specific instalation will not "disturb" when you are outside the environment. 
 
 Create a conda environment called tktpy: 
 ```
@@ -96,13 +77,13 @@ Let's agree that we work with python 3.9.0, so install via conda:
 ```
 $ conda install python=3.9.0
 ```
-And we install spyder:
+And we install spyder version 5.0.5:
 ```
-$ conda install -y spyder
+$ conda install -y spyder=5.0.5
 ```
 Next, you need to install the course requirements. These are the python packages that we will use during the course. They are stored in a file called 'tktreq.txt'. To download the file, type:
 ```
-$ curl -OL https://raw.githubusercontent.com/jochenkohler/TKT4196-material/master/tktreq.txt
+$ curl -OL https://raw.githubusercontent.com/jochenkohler/TKT4196_material/master/tktreq.txt
 ```
 
 To install them, type the following command:
