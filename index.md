@@ -8,4 +8,4 @@ title: INDEX
 - [About the course](about)
 - [Teaching team](team)
 - [Autumn 2020 semester](fall2020)
-- [Getting started with Python](py_guide)
+- [Getting started with Python](GetStartedPython)
