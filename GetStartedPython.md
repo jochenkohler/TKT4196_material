@@ -42,20 +42,20 @@ $ chsh -s /bin/zsh
 ```
 Then restart your terminal. It should now say -- ~ -- -zsh on top. 
 
-Now install Anaconda. Try the instructions in this [link](https://towardsdatascience.com/how-to-successfully-install-anaconda-on-a-mac-and-actually-get-it-to-work-53ce18025f97) first. If you have trouble doing it this way, you may look at this other [link](https://docs.anaconda.com/anaconda/install/mac-os/#macos-graphical-install). 
-After you have installed it, run this command: 
+Now install Anaconda.  Try the instructions on the [Anaconda page](https://docs.anaconda.com/anaconda/install/mac-os/#macos-graphical-install). I recommend to install it via the Terminal - just follow the instructions. 
+After you have installed it, run this command in the Terminal: 
 ```
 $ conda init zsh
 ```
 
 #### Windows: 
-Use this [link](https://docs.anaconda.com/anaconda/install/windows/).
+Follow the instructions on this [link](https://docs.anaconda.com/anaconda/install/windows/).
 
 
 
 ### Conda Environments
 
-It is a good idea that we work on a course specific conda environment. A conda environment is a directory that contains a specific collection of conda packages that we will us in the course installed. So we can be sure to have the required packages and dependencies when we are in the environment. And the course specific installation will not "disturb" when you are outside the environment. 
+It is a good idea that we work on a course specific conda environment. A conda environment is a directory that contains a specific collection of conda packages that we will use in the course. So we can be sure to have the required packages and dependencies when we are in the environment. And the course specific installation will not "disturb" when you are outside the environment. 
 
 Create a conda environment called tktpy: 
 ```
