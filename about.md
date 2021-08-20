@@ -1,5 +1,5 @@
 # About
-This course aims at the procurement of basic knowledge in the topics of **uncertainty representation**, **risk** and **safety** and makes students develop a new mind-set expendable for interpreting all kinds of engineering problems.
+[This course](https://www.ntnu.edu/studies/courses/TKT4196#tab=omEmnet) aims at the procurement of basic knowledge in the topics of **uncertainty representation**, **risk** and **safety** and makes students develop a new mind-set expendable for interpreting all kinds of engineering problems.
 
 The course will develop basic knowledge, understanding and practical skills. The course
 content is organized in different thematic main blocks:
