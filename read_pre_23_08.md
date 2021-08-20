@@ -17,6 +17,7 @@ Use the elevator next to the library main entrance.
 I will make an attempt to record the lecture. But better appear physically, when possible.
 
 ---
+---
 
 # Practical 00
 ## 23. September 2021, 12.15 Landmålerhallen
