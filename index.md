@@ -9,4 +9,4 @@ title: INDEX
 - [Teaching team](team)
 - [Autumn 2021 semester](fall2021)
 - [Getting started with Python](GetStartedPython)
-- [Prepare First Day](read_pre_23_08)
+- [Prepare for 23.08.](read_pre_23_08)
