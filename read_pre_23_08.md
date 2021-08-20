@@ -25,7 +25,7 @@ Here we will get our __computers ready__ to operate Python. I will also give you
 
 ## Prepare:
 * If you have time, you might follow [this guide](GetStartedPython) and try to make your computer ready. 
-* You could also have a look to the [Jupyter Notebook](P00-Introduction to Python) that contains some introduction.
+* You could also have a look to the [Jupyter Notebook](P00-Introduction to Python.ipyn) that contains some introduction.
 
 ## Good to know:
 The lecture room is ["Landmålerhallen"](https://use.mazemap.com/#v=1&config=ntnu&zlevel=0.5&center=10.405957,63.414996&zoom=18&sharepoitype=poi&sharepoi=73163&campusid=1). 
