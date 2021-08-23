@@ -1,5 +1,5 @@
 # Lecture 01
-## 27. August 2021, 10.15 R10
+## 27. August 2021, 08.15 Landmålerhallen
 It is demonstrated how a simple structure can be designed in order to __minimize the risk__. The optimization could be the foundation for identifying sufficiently low failure probabilities, i.e. sufficient safety. We will discuss the implications and challenges. 
 
 ## Prepare:
