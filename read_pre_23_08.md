@@ -1,5 +1,5 @@
 # Lecture 00
-## 23. September 2021, 10.15 R10
+## 23. August 2021, 10.15 R10
 In this first lecture of TKT4196 - Aspects of Structural Safety, 
 a __general overview__ of the course is given. 
 After going through the practical and organisational aspects related to the course imple- mentation, 
@@ -20,7 +20,7 @@ I will make an attempt to record the lecture. But better appear physically, when
 ---
 
 # Practical 00
-## 23. September 2021, 12.15 Landmålerhallen
+## 23. August 2021, 12.15 Landmålerhallen
 Here we will get our __computers ready__ to operate Python. I will also give you an introduction to some basics in scripting Python. 
 
 ## Prepare:
