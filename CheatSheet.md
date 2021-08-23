@@ -1,6 +1,6 @@
 # Cheat sheet
 
-__Install the required packages first using [this guide.](GetStartedPython) 
+__Install the required packages first using [this guide.](GetStartedPython)__
 
 ## The, you find some simple routines to get you started
 
@@ -17,7 +17,7 @@ Open the terminal on your computer:
 
 Activate our conda environment called tktpy: 
 ```
-$ conda create --name tktpy
+$ conda activate tktpy
 ```
 
 ### 2. Start Spyder:
