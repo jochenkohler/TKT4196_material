@@ -12,3 +12,4 @@ title: INDEX
 - [Cheat Sheet](CheatSheet)
 - [Prepare for 23.08.](read_pre_23_08)
 - [Prepare for 27.08.](read_pre_2708)
+- [Prepare for 30.08.](read_pre_3008)
