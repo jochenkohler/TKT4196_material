@@ -65,3 +65,43 @@ plt.xlim(500,1500)
 plt.ylim(1e-10,1e0)
 plt.tight_layout()
 plt.show()
+
+#=====================================
+# Structure with finite life (owner perspective) -- neglecting interest rate
+
+# Not discounted costs
+C_c = C0 + C1*h1                    # Construction cost
+EC_f = (C_c + H)*PF                 # Expected failure cost
+ECtot = C_c + EC_f                  # Objective function
+# Compute optimum
+idx_opt = ECtot.tolist().index(min(ECtot))
+h_opt = h1[idx_opt]
+beta_opt = beta[idx_opt]
+Pf_opt = PF[idx_opt]
+ECtot_min = ECtot[idx_opt]
+# print("Optimum cross-section height: %.2f m" % (h_opt))
+s1 = "Optimum cross-section height: {h:.0f} m\n".format(h=h_opt)
+s2 = "Optimum probability of failure: {pf:.2e}\nOptimum beta: {b:.2f}\n".format(pf=Pf_opt,b = beta_opt)
+s3 = "Minimum expected total cost = {c:.0f} NOK\n".format(c = ECtot_min)
+print(s1+s2+s3)
+
+# Plot function
+def pltECost(ECT_list,EC_f_list,EC_list):
+    # plt.figure(idx_plt)
+    plt.plot(h1,ECT_list[0],ECT_list[1],label = ECT_list[2])
+    plt.plot(h1,EC_f_list[0],EC_f_list[1],label = EC_f_list[2])
+    plt.plot(h1,EC_list[0],EC_list[1],label = EC_list[2])
+    plt.ylim(0,200000)
+    plt.xlim(500,1500)
+    plt.xlabel('$h$ [m]',fontsize=fontsizes)
+    plt.ylabel('$\mathrm{E}[C_{tot}]$',fontsize=fontsizes)
+    plt.tight_layout()
+    plt.ticklabel_format(style='sci',useMathText=True)
+    return 
+
+# Plot undiscounted costs
+plt.figure()
+pltECost([ECtot,'r','Undiscounted $\mathrm{E}[C_T]$'],[EC_f,'b','Undiscounted $\mathrm{E}[C_F]$'],[C_c,'k','$C_c$'])
+# plt.plot(np.array([h_opt, h_opt, 0]),np.array([0, ECtot_min, ECtot_min]),':b')
+plt.plot(h_opt,ECtot_min,'or')
+plt.show()
