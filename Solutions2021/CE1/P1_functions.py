@@ -63,11 +63,11 @@ def optdesign(ECtot,Pf_fun):
 def plots_task4(diameters,ECtot,EC_f,C_c):
     import matplotlib.pyplot as plt
     fig, ax = plt.subplots(1,1)
-    ax.plot(diameters,ECtot(diameters),'k',label='$E[C_{tot}]$')
-    ax.plot(diameters,EC_f(diameters),'r',label='$E[C_{F}]$')
-    ax.plot(diameters,C_c(diameters),'g',label='$E[C_{C}]$')
+    ax.plot(diameters,ECtot(diameters),'k',label='E$[C_{tot}]$')
+    ax.plot(diameters,EC_f(diameters),'m',label='E$[C_{F}]$')
+    ax.plot(diameters,C_c(diameters),'c',label='E$[C_{C}]$')
     ax.set_xlim(diameters[0],diameters[-1])
     ax.set_xlabel('$d_{o}$ [m]')
-    ax.set_ylabel('$E[C_{tot}]$')
+    ax.set_ylabel('E$[C_{tot}]$')
     plt.tight_layout()
     return ax
