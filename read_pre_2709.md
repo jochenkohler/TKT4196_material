@@ -5,6 +5,8 @@ Chapter 3 - First Order Reliability Method (FORM)
 
 ## Prepare:
 * Compendium: Read Chapter 3. 
+
+
 ### Your learning objective for this first reading is:
 * You understand how a reliability problem with two variables can be represented in a 3 dimensional diagram (like the one in Figure 3.1 (left)).
 * You capture the transformation from "x-space" to "u-space" ((like the one in Figure 3.1 left to right)
