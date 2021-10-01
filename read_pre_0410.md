@@ -41,8 +41,8 @@ Good to know:
     notebook).
 
 -   Then you will be asked to implement a very simple exampel of a tension rod
-    with uncertain load $$S$$, material resistance $$R$$  and cross section area
-    $$A$$. Therefor you have to make the corresponding adjustment in your code.
+    with uncertain load $$S$$, material resistance $$R$$ and cross section area
+    $$A$$.  Therefor you have to make the corresponding adjustment in your code.
 
 Recording:
 ----------
