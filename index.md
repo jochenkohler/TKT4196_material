@@ -28,4 +28,4 @@ TKT 4196
 
 -   [Prepare for 27.09.](read_pre_2709)
 
--   [Prepare for 04.10.](read_pre0309.md)
+-   [Prepare for 04.10.](read_pre_0410.md)
