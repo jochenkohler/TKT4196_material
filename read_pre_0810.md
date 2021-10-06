@@ -2,7 +2,7 @@ Lecture
 ===============
 
  
-08. October 2021, 08.15 Landmålerhallen
+October 8th 2021, 08.15 Landmålerhallen
 -----------------------------------------------------
 
 Recapturing basics of probability theory and statistics from an engineering perspective. 
