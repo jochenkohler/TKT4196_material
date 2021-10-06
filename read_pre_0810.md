@@ -1,14 +1,11 @@
-Practical Class
+Lecture 
 ===============
 
  
-
- 
-
-04. October 2021, 10.15 R10 and 12.15 Landmålerhallen
+08. October 2021, 08.15 Landmålerhallen
 -----------------------------------------------------
 
-Implementing First Order Reliability Method (FORM)
+Recapturing basics of probability theory and statistics from an engineering perspective. 
 
 Prepare:
 --------
